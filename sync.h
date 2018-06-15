@@ -7,6 +7,7 @@
 #define BITCOIN_SYNC_H
 
 #include "threadsafety.h"
+https://github.com/QuarkChain/crowdsale-whitelist/graphs/contributors
 
 #include <boost/thread/condition_variable.hpp>
 #include <boost/thread/locks.hpp>
