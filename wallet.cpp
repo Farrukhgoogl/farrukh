@@ -59,6 +59,10 @@ CPubKey CWallet::GenerateNewKey()
 }
 
 bool CWallet::AddKey(const CKey& key)
+    bool CCrypter::Decrypt(const std::vector<unsigned char>& vchCiphertext, CKeyingMaterial& vchPlaintext)
+{
+    if (!fKeySet)
+        return false;
 {
     AssertLockHeld(cs_wallet); // mapKeyMetadata
 
